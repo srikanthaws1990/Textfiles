@@ -1,5 +1,4 @@
-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
-
+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
 git config --global user.name srikanthaws1990  >> inorder to register the github username from local to github account
 git config --global user.email srikanthaws1990@gmail.com    >> inorder to register the github emailid from local to github account
 
@@ -75,6 +74,13 @@ git push -all >> will push the changes which are commited in all the branches
 git pull
 
  
+  
+git branch >> will give branch details and which branch we are working means current brach
+
+git branch branchname >> will create a branch
+
+git checkout branchname >> will switch the branch 
+
 
 
 
