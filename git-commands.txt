@@ -75,6 +75,13 @@ git push -all >> will push the changes which are commited in all the branches
 git pull
 
  
+  
+git branch >> will give branch details and which branch we are working means current brach
+
+git branch branchname >> will create a branch
+
+git checkout branchname >> will switch the branch 
+
 
 
 
