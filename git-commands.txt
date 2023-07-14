@@ -1,0 +1,96 @@
+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
+
+git config --global user.name srikanthaws1990  >> inorder to register the github username from local to github account
+git config --global user.email srikanthaws1990@gmail.com    >> inorder to register the github emailid from local to github account
+
+git remote add origin https://github.com/srikanthaws1990/php-lamp.git
+
+git init
+
+git branch
+
+git branch -a
+
+git pull
+
+git add file name
+
+git status
+
+git commit -m "commit message"
+
+git push 
+
+git push -all
+
+git checkout branchname
+
+##Create a empty repository in github and update the code from local repo by using below commands
+
+
+1)we need to create a directory which matches the repository name in my case i am creating php-lamp directory
+
+mkdir -p php-lamp
+cd php-lamp
+
+2) By executing the below commands we can register our username and email of git hub in local repo
+git init .  >> initilaize the local repository
+git config --global user.name srikanthaws1990  >> inorder to register the github username from local to github account
+git config --global user.email srikanthaws1990@gmail.com    >> inorder to register the github emailid from local to github account
+
+3) By executing the below command we can setup the remote repository
+
+git remote add origin https://github.com/srikanthaws1990/Textfiles.git
+git remote -v  >> to check the remote repository
+
+4) Then we need to check the branch where we are in and we need to create a branch called main
+
+git branch
+
+git branch -M main
+
+git branch
+
+5) Add one dummy file for testing purpose and then commit the changes
+
+echo "This is Project which stores" >> Readme.txt
+
+
+git status >> which will show the status of the file
+git add Readme.txt
+git status
+git commit -m " Created Readme file"
+
+
+6) Below commad is for pusing the changes to remote repository
+
+git push -u origin main
+
+git push >> will push the changes which are commited in present branch
+git push -all >> will push the changes which are commited in all the branches
+
+
+7) Below commang is for sysc both remote and local
+
+git pull
+
+ 
+
+
+
+
+
+git remote add origin https://github.com/srikanthaws1990/php-lamp.git
+
+git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+
+git remote set-url origin  https://github.com/srikanthaws1990/ecomm.git
+
+git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
+
+
+git remote set-url origin git@github.com:srikanthaws1990/ecomm.git
+
+
+git init
+
